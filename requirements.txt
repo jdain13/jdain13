@@ -1,4 +1,7 @@
 discord.py==0.16.12
 commands.py==0.16.12
-View, Button, Modal, TextInput.py==0.16.12
+View.py==0.16.12
+Button.py==0.16.12
+Modal.py==0.16.12
+TextInput.py==0.16.12
 datetimepy==0.16.12
