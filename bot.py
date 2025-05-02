@@ -1,5 +1,4 @@
 import discord
-import os
 from discord.ext import commands
 from discord.ui import View, Button, Modal, TextInput
 import datetime
@@ -231,5 +230,4 @@ async def 풀클_error(ctx, error):
         await ctx.send("사용법: !풀클[시간: HH:MM]")
 
 
-access_token = os.environ["BOT_TOKEN"]
-client.run(access_token)
+bot.run(access_token)
