@@ -230,4 +230,4 @@ async def 풀클_error(ctx, error):
         await ctx.send("사용법: !풀클[시간: HH:MM]")
 
 
-bot.run("MTM2Nzg0NDM4NjY5MTYxMjY4Mw.G91FQZ.3IRjtNlnNfE3UFHF_l9wWpFQFtWnDrMCS-kwpI")
+bot.run("MTM2Nzg0NDM4NjY5MTYxMjY4Mw.GLdFVO.JDFrA4lmQrL0VRUOBYejrjaKJF1EitKnvdEhlk")
