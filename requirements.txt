@@ -1,7 +1,0 @@
-discord.py==3.13.3
-commands.py==3.13.3
-View.py==3.13.3
-Button.py==3.13.3
-Modal.py==3.13.3
-TextInput.py==3.13.3
-datetimepy==3.13.3
