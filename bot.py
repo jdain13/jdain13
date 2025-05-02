@@ -232,4 +232,4 @@ async def 풀클_error(ctx, error):
 
 
 access_token = os.environ["BOT_TOKEN"]
-bot.run("access_token")
+client.run(access_token)
