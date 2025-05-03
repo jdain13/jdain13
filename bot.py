@@ -179,8 +179,8 @@ async def 풀클(ctx, time: str):
     view = PartyRecruitView(dungeon_name, dt, ctx.author.id)
     embed = view.make_embed()
 
-    role_mention = "<@1135695004942217378>"
-    await ctx.send(f"{role_mention} 파티 모집이 시작되었습니다!", embed=embed, view=view)
+    role_id = 1135695004942217378  # 숫자형 ID
+    await ctx.send(f"<@&{role_id}> 풀클모집에 지원해주세요!")
 
 
 class KickSelect(discord.ui.Select):
