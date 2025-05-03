@@ -230,4 +230,9 @@ async def 풀클_error(ctx, error):
         await ctx.send("사용법: !풀클[시간: HH:MM]")
 
 
-bot.run("MTM2Nzg0NDM4NjY5MTYxMjY4Mw.GLdFVO.JDFrA4lmQrL0VRUOBYejrjaKJF1EitKnvdEhlk")
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+bot.run(os.getenv("DISCORD_TOKEN"))
+
