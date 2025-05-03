@@ -179,7 +179,7 @@ async def 풀클(ctx, time: str):
     view = PartyRecruitView(dungeon_name, dt, ctx.author.id)
     embed = view.make_embed()
 
-    role_mention = "<@1135695004942217378>"  # 실제 역할 ID로 교체
+    role_mention = "<@1135695004942217378>"
     await ctx.send(f"{role_mention} 파티 모집이 시작되었습니다!", embed=embed, view=view)
 
 
